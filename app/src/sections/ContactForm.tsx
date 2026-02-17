@@ -65,7 +65,17 @@ export function ContactForm() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center gap-2 mb-12">
+        <div className="flex flex-col items-center gap-6 mb-12">
+          <figure className="max-w-[280px]">
+            <img
+              src="/images/humble-sincere-flower.png"
+              alt="Humble, Sincere Flower — drawing by Joe McHugh from Flapping Your Arms Can Be Flying"
+              className="w-full rounded-xl shadow-md bg-black/5"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2 italic">
+              Humble, Sincere Flower — A single bloom stands before the great unknown. Drawing by Joe McHugh found in <em>Flapping Your Arms Can Be Flying</em>.
+            </figcaption>
+          </figure>
           <a 
             href="mailto:info@joemchughshop.com"
             className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 transition-colors bg-purple-50 px-4 py-2 rounded-full"

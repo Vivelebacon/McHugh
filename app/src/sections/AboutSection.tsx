@@ -15,6 +15,17 @@ export function AboutSection() {
         </div>
         
         <div className="prose prose-lg max-w-none space-y-6 text-gray-700">
+          <figure className="my-10">
+            <img
+              src="/images/joe-brian-painting-bus.png"
+              alt="Brian Hand and Joe McHugh painting the bus"
+              className="w-full rounded-2xl shadow-lg object-cover max-h-[420px]"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2">
+              Brian Hand and Joe McHugh painting the bus.
+            </figcaption>
+          </figure>
+
           <p className="text-xl leading-relaxed">
             Joe McHugh (1939 – 2022) was an artist, a seeker, and a master at playing with perception. 
             Trained at Lehigh University and the Rhode Island School of Design, he combined the hand of 
@@ -38,6 +49,11 @@ export function AboutSection() {
           
           <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 my-12">
             <h2 className="font-serif text-3xl text-[#1A1A1A] mb-4">Flapping Your Arms Can Be Flying</h2>
+            <img
+              src="/images/flapping-your-arms-cover.png"
+              alt="Book cover of Flapping Your Arms Can Be Flying with electric green background and red text"
+              className="w-full max-w-sm mx-auto rounded-xl shadow-md mb-6 object-cover"
+            />
             <p>
               Flapping Your Arms Can Be Flying began in Joe McHugh's Army sketchbooks, just after he and 
               his sergeant and army psychiatrist, Bob Hall, discovered LSD at Fort Knox in 1964 while it 
@@ -51,6 +67,21 @@ export function AboutSection() {
             </p>
             <p className="mt-4 text-purple-600 font-medium">
               The book became part of the Victoria and Albert Museum's permanent collection in the late 1990s.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 my-12">
+            <h2 className="font-serif text-3xl text-[#1A1A1A] mb-4">About <em>The Other Cat</em> Notebook</h2>
+            <img
+              src="/images/other-cat-notebook.png"
+              alt="The Other Cat, from The Other Cat notebook, painted by Joe McHugh in the 1960s"
+              className="w-full max-w-sm mx-auto rounded-xl shadow-md mb-6 object-cover"
+            />
+            <p>
+              Well before Joe McHugh's psychedelic visions took flight, there was this small notebook. On page 16 
+              leaps <em>The Other Cat</em>—a blue-striped, wide-eyed creature in full color. It's as if Joe's inner 
+              world suddenly pawed its way onto the page. The image got its name years later from Joe's wife, Jan, 
+              who adored it. This t-shirt marks <em>The Other Cat</em>'s world debut.
             </p>
           </div>
           
